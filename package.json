@@ -1,0 +1,12 @@
+{
+  "name": "judy-and-1150",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/preview.mjs --owner",
+    "build": "node scripts/build.mjs",
+    "check": "node --check public/app.js && node --check public/theme-init.js && node --check public/night.js && node --check worker/api.js",
+    "test": "node --test tests/cloud.test.mjs tests/build.test.mjs"
+  }
+}

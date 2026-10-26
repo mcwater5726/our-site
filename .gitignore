@@ -1,0 +1,8 @@
+node_modules/
+*.log
+qa/
+.openai/local/
+.local/
+portable/data/
+.env
+
